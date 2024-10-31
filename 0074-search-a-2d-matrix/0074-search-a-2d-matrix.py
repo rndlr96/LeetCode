@@ -16,5 +16,4 @@ class Solution:
         
         row = binary_search(matrix, target, -1)
         col = binary_search(matrix, target, row)
-        print(row, col)
         return matrix[row][col] == target
